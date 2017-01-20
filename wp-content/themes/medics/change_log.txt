@@ -1,0 +1,35 @@
+Version 1.0
+i) Initial Release
+
+Version: 1.0.1 (02nd Sept 2014)
+i) Changed Theme URI
+
+Version: 1.2 (08 Oct 2014)
+i) Change theme options layout
+ii) Remove @import font in css and enqueue it
+iii) Set backend control for phone title
+iv) Mention about home page settings in readme.txt
+v) Set Pagination plugin using tgm and tgm license define in readme.txt 
+vi) Add bootstrap.css.map file in css folder
+
+Version: 1.3 (15 Oct 2014)
+i) set css for post div clear
+ii) set css for home page banner
+iii) home page icon css set
+iv) change icon spelling in theme options
+v) set hardcode sentence by _e() function
+vi) Handles Page Pagination set in page.php
+vii) set sanitization in theme
+viii) enqueue css and js files proper
+
+Version: 1.4 (15 Dec 2014)
+i) Remove unnecessary code
+ii) Declare copyright and license information
+iii) Set translation ready
+
+Version: 1.5 (20 Aug 2015)
+i) Fixed WP_Widget constructor issue.
+
+Version: 1.6 (28 Aug 2015)
+i) Fixed Text Domain Issue.
+ii) Removed Favicon from header.php and theme options

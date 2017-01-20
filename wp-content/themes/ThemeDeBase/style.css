@@ -1,0 +1,39 @@
+/*Theme Name: nom du theme
+Theme URI: http://www.monsite.com/
+Description: La description de votre thème.
+10:20 Version: 0.1
+10:20 Author: Francis Chouquet
+*/
+
+body {
+   font-family: sans-serif;
+}
+
+h1 a, h2 {
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #333;
+}
+
+h2 {
+   color: #544;
+}
+
+p {
+   text-align: justify;
+   }
+
+.menu ul {
+   list-style: none;
+}
+
+.menu ul li {
+   display: inline;
+   margin: 10px 25px;
+}
+
+.menu ul li a {
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #655;
+}

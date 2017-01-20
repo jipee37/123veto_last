@@ -1,0 +1,1152 @@
+# Translation of Regina Lite in French (France)
+# This file is distributed under the same license as the Regina Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-24 16:40:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Regina Lite\n"
+
+#. Description of the plugin/theme
+msgid "Regina Lite is a medical wordpress theme, suitable for medical clinics, dentistry websites, medical research facilities and more."
+msgstr "Regina Lite est un thème WordPress médical, pour les cliniques, les cabinets de dentistes et bien plus encore."
+
+#: inc/customizer/panels/site.php:286
+msgid "&copy; Copyright 2016. All Rights Reserved."
+msgstr "&copy; Copyright 2016. Tous Droits Réservés."
+
+#: inc/customizer/custom-controls/pro-controls-selector.php:85
+msgid "In order to be able to add pricing tables, you need to upgrade to the PRO version."
+msgstr "Pour pouvoir ajouter des tarifs, vous devez mettre à niveau vers la version PRO."
+
+#: inc/customizer/custom-controls/pro-controls-selector.php:107
+msgid "In order to be able to change the section order, you need to upgrade to the PRO version."
+msgstr "Pour pouvoir changer l&rsquo;ordre de section, vous devez mettre à niveau vers la version PRO."
+
+#: inc/customizer/custom-controls/pro-controls-selector.php:129
+msgid "In order to be able to add Google Maps, you need to upgrade to the PRO version."
+msgstr "Pour pouvoir ajouter des cartes Google, vous devez mettre à niveau vers la version PRO."
+
+#: inc/customizer/custom-controls/pro-controls-selector.php:157
+msgid "By upgrading to the PRO version you are unlocking the full potential of this theme. You will get: unlimited sliders / carousels, unlimited Google Maps, Unlimited Team Members, Section Ordering, Control over theme typography and colors. Upgrade NOW!"
+msgstr "En mettant à niveau vers la version PRO vous allez libérer pleinement le potentiel de ce thème. Vous obtiendrez&nbsp;: diaporamas/carrousels illimités, cartes Google, membres d'équipe illimités, ordre des sections, contrôle de la typographie et des couleurs. Mettez à niveau&nbsp;!"
+
+#: inc/customizer/customizer.php:27
+msgid "Section order"
+msgstr "Ordre de section"
+
+#: inc/customizer/customizer.php:48
+msgid "Pricing tables"
+msgstr "Grilles de tarifs"
+
+#: inc/customizer/customizer.php:68
+msgid "Google Maps"
+msgstr "Cartes Google"
+
+#: inc/customizer/panels/blog.php:117
+msgid "Displayed right after the post"
+msgstr "Affiché juste après l&rsquo;article"
+
+#: inc/customizer/panels/site.php:274
+msgid "Enable footer theme copyright message ?"
+msgstr "Activer le message de copyright de pied&nbsp;?"
+
+#: inc/customizer/panels/site.php:275
+msgid "This will display the theme name with a backlink to the site of the theme developers. Leave it if you wish to give credit where it's due"
+msgstr "ceci va afficher le nom du thème avec un lien vers le site du développeur du thème. Laissez le si vous voulez laisser le crédit."
+
+#: inc/customizer/panels/features.php:154 sections/section-home-features.php:17
+msgid "Our Services"
+msgstr "Nos services"
+
+#: inc/customizer/panels/features.php:160
+msgid "Button Text:"
+msgstr "Texte Bouton :"
+
+#: inc/components/nav-walker/class.mt-nav-walker.php:150
+msgid "Contact"
+msgstr "Contact"
+
+#: inc/components/contact-bar/class.mt-contact-bar.php:39
+#: inc/customizer/panels/site.php:199 inc/extras.php:160
+msgid "contact@site.com"
+msgstr "contact@site.com"
+
+#: inc/components/nav-walker/class.mt-nav-walker.php:147
+msgid "Services"
+msgstr "Services"
+
+#: inc/components/nav-walker/class.mt-nav-walker.php:148
+msgid "About"
+msgstr "&Agrave; propos"
+
+#: footer.php:8
+msgid "Made with love by Macho Themes &copy; Copyright 2016. All Rights Reserved."
+msgstr "Réalisé par Macho Themes &copy; Copyright 2016. Tous droits réservés."
+
+#: inc/customizer/panels/advanced.php:62
+msgid "Enable search icon in header?"
+msgstr "Activer la barre de recherche dans l&rsquo;en-tête&nbsp;?"
+
+#: inc/customizer/panels/advanced.php:63
+msgid "Initial status: enabled. If you don't like the fact that search icon show in header, uncheck this."
+msgstr "Statut initial&nbsp;: activé. Si vous ne voulez pas que l&rsquo;icône de recherche soit dans l&rsquo;en-tête, décochez ceci."
+
+#: inc/components/related-posts/class.mt-related-posts.php:169
+msgid "Related posts: "
+msgstr "Articles similaires&nbsp;:"
+
+#: inc/customizer/panels/features.php:26
+msgid "Top Box"
+msgstr "Boîte haute"
+
+#: inc/customizer/panels/site.php:82
+msgid "Company Image Logo:"
+msgstr "Image de logo de l&rsquo;entreprise&nbsp;:"
+
+#: inc/customizer/custom-controls/pro-controls-selector.php:89
+#: inc/customizer/custom-controls/pro-controls-selector.php:111
+#: inc/customizer/custom-controls/pro-controls-selector.php:133
+#: inc/customizer/custom-controls/pro-controls-selector.php:175
+#: inc/extras.php:239
+msgid "View PRO version"
+msgstr "Voir la Version Pro"
+
+#: inc/customizer/custom-controls/pro-controls-selector.php:153
+#: inc/extras.php:243
+msgid "Theme Documentation"
+msgstr "Documentation du thème"
+
+#: widgets/widget-recent-posts.php:67
+msgid "5"
+msgstr "5"
+
+#: widgets/widget-recent-posts.php:75
+msgid "Number of posts:"
+msgstr "Nombre de messages:"
+
+#. Template Name of the plugin/theme
+msgid "Blog Template"
+msgstr "Modèle blog"
+
+#. Template Name of the plugin/theme
+msgid "Page width sidebar on the left"
+msgstr "Page avec la barre sur la gauche"
+
+#. Template Name of the plugin/theme
+msgid "Page with sidebar on the right"
+msgstr "Barre avec la barre sur la droite"
+
+#: widgets/widget-contact.php:89
+msgid "Facebook Link:"
+msgstr "Lien Facebook&nbsp;:"
+
+#: widgets/widget-contact.php:94
+msgid "Twitter Link:"
+msgstr "Lien Twitter&nbsp;:"
+
+#: widgets/widget-contact.php:99
+msgid "LinkedIn Link:"
+msgstr "Lien LinkedIn&nbsp;:"
+
+#: widgets/widget-contact.php:104
+msgid "YouTube Link:"
+msgstr "Lien Youtube&nbsp;:"
+
+#: widgets/widget-recent-comments.php:8 widgets/widget-recent-comments.php:48
+msgid "[MT] - Recent Comments"
+msgstr "[MT] - Commentaires récents"
+
+#: widgets/widget-recent-comments.php:8
+msgid "[MT] - Recent Comments description."
+msgstr "[MT] - Description des commentaires récents."
+
+#: widgets/widget-recent-comments.php:30
+msgid "-"
+msgstr "-"
+
+#: widgets/widget-recent-comments.php:34
+msgid "No comments."
+msgstr "0 Commentaires"
+
+#: widgets/widget-recent-posts.php:8 widgets/widget-recent-posts.php:66
+msgid "[MT] - Recent Posts"
+msgstr "[MT] - Articles récents"
+
+#: widgets/widget-recent-posts.php:8
+msgid "[MT] - Recent Posts description."
+msgstr "[MT] Description des articles récents"
+
+#: widgets/widget-recent-posts.php:50
+msgid "No posts found."
+msgstr "Aucun article trouvé."
+
+#: widgets/widget-contact.php:8
+msgid "[MT] - Contact description."
+msgstr "[MT] - Description de contact"
+
+#: widgets/widget-contact.php:66
+msgid "(650) 652-8500"
+msgstr "(650) 652-8500"
+
+#: widgets/widget-contact.php:67
+msgid "contact@mediplus.com"
+msgstr "contact@mediplus.com"
+
+#: widgets/widget-contact.php:68 widgets/widget-contact.php:69
+#: widgets/widget-contact.php:70 widgets/widget-contact.php:71
+msgid "#"
+msgstr "#"
+
+#: widgets/widget-contact.php:79
+msgid "Phone:"
+msgstr "Téléphone:"
+
+#: widgets/widget-contact.php:84
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: widgets/widget-categories.php:8 widgets/widget-categories.php:46
+msgid "[MT] - Categories"
+msgstr "[MT] - Catégories"
+
+#: widgets/widget-categories.php:8
+msgid "[MT] - Categories description."
+msgstr "[MT] - Description des catégories"
+
+#: widgets/widget-contact.php:8 widgets/widget-contact.php:65
+msgid "[MT] - Contact"
+msgstr "[MT] - Contact"
+
+#: widgets/widget-address.php:8 widgets/widget-address.php:45
+msgid "[MT] - Address"
+msgstr "[MT] - Adresse"
+
+#: widgets/widget-address.php:8
+msgid "[MT] - Address description."
+msgstr "[MT] - Description de l&rsquo;adresse"
+
+#: widgets/widget-address.php:46
+msgid "Medplus<br /> 33 Farlane Street<br /> Keilor East<br /> VIC 3033, New York<br />"
+msgstr "Medplus<br /> 33 Farlane Street<br /> Keilor East<br /> VIC 3033, New York<br />"
+
+#: widgets/widget-address.php:54
+msgid "Address:"
+msgstr "Adresse&nbsp;:"
+
+#: template-parts/content-single.php:23
+msgid "Pages:"
+msgstr "Pages :"
+
+#: template-parts/content-none.php:13
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt(e) à publier votre premier article&nbsp;: <a href=\"%1$s\">Lancez-vous ici</a>."
+
+#: template-parts/content-none.php:11
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#: sections/section-page-header.php:20
+msgid "Blog"
+msgstr "Blog"
+
+#: searchform.php:17
+msgid "Search for "
+msgstr "Recherche pour "
+
+#: sections/section-page-header.php:18
+msgid "Search results for: %s"
+msgstr "Résultats de recherche pour %s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:71
+msgid "Edit %s"
+msgstr "Editer %s"
+
+#: inc/template-tags.php:64
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: inc/template-tags.php:58
+msgid "Tagged %1$s"
+msgstr "Étiqueté %1$s"
+
+#: inc/template-tags.php:52
+msgid "Posted in %1$s"
+msgstr "Publié dans  %1$s"
+
+#: inc/template-tags.php:33
+msgctxt "post author"
+msgid "by %s"
+msgstr "par %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:28
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publié le %s"
+
+#: inc/extras.php:199
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire attend d'être modéré"
+
+#: inc/extras.php:195
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: inc/extras.php:194
+msgid "%s"
+msgstr "%s"
+
+#: inc/extras.php:181
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: inc/extras.php:160
+msgid "Share on E-mail"
+msgstr "Partager par e-mail"
+
+#: inc/extras.php:181
+msgid "Pingback:"
+msgstr "Ping :"
+
+#: inc/extras.php:152
+msgid "Share on Twitter"
+msgstr "Partager sur Pinterest"
+
+#: inc/extras.php:156
+msgid "Share on LinkedIn"
+msgstr "Partager via LinkedIn"
+
+#: inc/customizer/panels/blog.php:226 inc/extras.php:126
+msgid "Share this article"
+msgstr "Partager cet article"
+
+#: inc/extras.php:145 inc/extras.php:147
+msgid "Share on Facebook"
+msgstr "Partager sur Facebook"
+
+#: inc/extras.php:99
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles plus récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/extras.php:56
+msgid "Comments are off for this post."
+msgstr "Les commentaires sont fermés pour cet article."
+
+#: inc/extras.php:95
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles plus anciens"
+
+#: inc/extras.php:50
+msgid " Comments"
+msgstr "Commentaires"
+
+#: inc/extras.php:52 inc/template-tags.php:64
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: inc/customizer/panels/testimonials.php:61
+msgid "Image #1:"
+msgstr "Image #1&nbsp;:"
+
+#: inc/customizer/panels/features.php:87
+msgid "Book Aappointment URL:"
+msgstr "URL de réservation de rendez-vous&nbsp;:"
+
+#: inc/customizer/panels/testimonials.php:16
+msgid "Testimonials Panel"
+msgstr "Panneau de témoignages"
+
+#: inc/customizer/panels/testimonials.php:71
+msgid "Image #2:"
+msgstr "Image #2&nbsp;:"
+
+#: inc/customizer/panels/testimonials.php:79
+msgid "Image #3:"
+msgstr "Image #3&nbsp;:"
+
+#: inc/customizer/panels/testimonials.php:87
+msgid "Image #4:"
+msgstr "Image #4&nbsp;:"
+
+#: inc/customizer/panels/testimonials.php:97
+msgid "Testimonial #1"
+msgstr "Témoignage #1"
+
+#: inc/customizer/panels/testimonials.php:98
+msgid "Testimonial #1 Section description."
+msgstr "Description de section de témoignage #1"
+
+#: inc/customizer/panels/testimonials.php:165
+msgid "Testimonial #2"
+msgstr "Témoignage #2"
+
+#: inc/customizer/panels/testimonials.php:233
+msgid "Testimonial #3"
+msgstr "Témoignage #3"
+
+#: inc/customizer/panels/testimonials.php:301
+msgid "Testimonial #4"
+msgstr "Témoignage #4"
+
+#: inc/customizer/panels/testimonials.php:369
+msgid "Testimonial #5"
+msgstr "Témoignage #5"
+
+#: inc/extras.php:48
+msgid "No Comments"
+msgstr "0 Commentaires"
+
+#: inc/customizer/panels/site.php:168
+msgid "YouTube URL"
+msgstr "URL YouTube"
+
+#: inc/customizer/panels/site.php:186
+msgid "LinkedIN URL"
+msgstr "URL LinkedIn"
+
+#: inc/customizer/panels/site.php:205
+msgid "Email addr."
+msgstr "Adresse e-mail"
+
+#: inc/customizer/panels/site.php:206 inc/customizer/panels/site.php:225
+msgid "Will be displayed in the header & footer"
+msgstr "Sera affiché dans l'en-tête et le pied"
+
+#: inc/customizer/panels/site.php:224
+msgid "Phone number"
+msgstr "Num&eacute;ro de t&eacute;l&eacute;phone"
+
+#: inc/customizer/panels/site.php:242
+msgid "Book Appointment URL:"
+msgstr "URL de réservation de rendez-vous&nbsp;:"
+
+#: inc/customizer/panels/site.php:243
+msgid "Book Appointment URL description."
+msgstr "Description d&rsquo;URL de réservation de rendez-vous"
+
+#: inc/customizer/panels/site.php:255
+msgid "Footer Details"
+msgstr "Détails du pied"
+
+#: inc/customizer/panels/site.php:256
+msgid "Change the footer copyright message from here. Note: no HTML allowed."
+msgstr "Changer le message de copyright du pied ici. Note&nbsp;: HTML non autorisé."
+
+#: inc/customizer/panels/site.php:294
+msgid "Footer Copyright."
+msgstr "Copyright de pied."
+
+#: inc/customizer/panels/site.php:295
+msgid "Will be displayed in the footer"
+msgstr "Sera affiché dans l'en-tête et le pied"
+
+#: inc/customizer/panels/speak.php:16
+msgid "Speak Panel"
+msgstr "Panneau Speak"
+
+#: inc/customizer/panels/speak.php:17
+msgid "Speak Panel description."
+msgstr "Description du panneau Speak"
+
+#: inc/customizer/panels/site.php:72
+msgid "Enter company name"
+msgstr "Entrez le nom de l'entreprise"
+
+#: inc/customizer/panels/site.php:73
+msgid "This field is best used when you don't have a professional image logo"
+msgstr "Ce champ est mieux utilisé quand vous n&rsquo;avez pas de logo."
+
+#: inc/customizer/panels/site.php:115
+msgid "Contact Details"
+msgstr "Coordonnées"
+
+#: inc/customizer/panels/site.php:116
+msgid "These are the contact details displayed in the header & footer of the website."
+msgstr "Ce sont les détails de contact affichés dans l&rsquo;en-tête et le pied du site."
+
+#: inc/customizer/panels/site.php:132
+msgid "Facebook URL"
+msgstr "URL Facebook"
+
+#: inc/customizer/panels/site.php:133 inc/customizer/panels/site.php:151
+#: inc/customizer/panels/site.php:169 inc/customizer/panels/site.php:187
+msgid "Will be displayed in the contact bar ( Header )"
+msgstr "Sera affiché dans la barre de contact (en-tête)"
+
+#: inc/customizer/panels/site.php:150
+msgid "Twitter URL"
+msgstr "﻿URL Twitter"
+
+#: inc/customizer/panels/site.php:44
+msgid "You can change the site layout in this area as well as your contact details (the ones displayed in the header & footer) "
+msgstr "Vous pouvez changer le style du site dans cette zone aussi bien que vos infos de contact (affichés dans l&rsquo;en-tête et le pied)"
+
+#: inc/customizer/panels/site.php:55
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer/panels/site.php:43
+msgid "General Options"
+msgstr "Options globales"
+
+#: inc/customizer/panels/our-team.php:127
+#: inc/customizer/panels/our-team.php:211
+#: inc/customizer/panels/our-team.php:295
+#: inc/customizer/panels/our-team.php:379
+#: inc/customizer/panels/testimonials.php:154
+#: inc/customizer/panels/testimonials.php:222
+#: inc/customizer/panels/testimonials.php:290
+#: inc/customizer/panels/testimonials.php:358
+#: inc/customizer/panels/testimonials.php:426
+msgid "Position:"
+msgstr "Position :"
+
+#: inc/customizer/panels/our-team.php:171
+msgid "Team Member #2"
+msgstr "Membre de l'équipe #2"
+
+#: inc/customizer/panels/our-team.php:255
+msgid "Team Member #3"
+msgstr "Membre de l'équipe #3"
+
+#: inc/customizer/panels/our-team.php:339
+msgid "Team Member #4"
+msgstr "Membre de l'équipe #4"
+
+#: inc/customizer/panels/features.php:185
+msgid "Feature #1"
+msgstr "Fonction #1"
+
+#: inc/customizer/panels/features.php:174
+#: inc/customizer/panels/features.php:229
+#: inc/customizer/panels/features.php:284
+#: inc/customizer/panels/features.php:339
+#: inc/customizer/panels/features.php:394
+#: inc/customizer/panels/our-team.php:159
+#: inc/customizer/panels/our-team.php:243
+#: inc/customizer/panels/our-team.php:327
+#: inc/customizer/panels/our-team.php:411 inc/customizer/panels/speak.php:91
+msgid "Button URL:"
+msgstr "URL de bouton&nbsp;:"
+
+#: inc/customizer/panels/features.php:240
+msgid "Feature #2"
+msgstr "Fonction #2"
+
+#: inc/customizer/panels/features.php:295
+msgid "Feature #3"
+msgstr "Fonction #3"
+
+#: inc/customizer/panels/features.php:350
+msgid "Feature #4"
+msgstr "Fonction #4"
+
+#: inc/customizer/panels/our-team.php:16
+msgid "Our Team Panel"
+msgstr "Panneau Notre Équipe"
+
+#: inc/customizer/panels/our-team.php:87
+msgid "Team Member #1"
+msgstr "Membre de l'équipe #1"
+
+#: inc/customizer/panels/our-team.php:96 inc/customizer/panels/our-team.php:180
+#: inc/customizer/panels/our-team.php:264
+#: inc/customizer/panels/our-team.php:348
+#: inc/customizer/panels/testimonials.php:123
+#: inc/customizer/panels/testimonials.php:191
+#: inc/customizer/panels/testimonials.php:259
+#: inc/customizer/panels/testimonials.php:327
+#: inc/customizer/panels/testimonials.php:395
+msgid "Image:"
+msgstr "Image :"
+
+#: inc/customizer/panels/our-team.php:111
+#: inc/customizer/panels/our-team.php:195
+#: inc/customizer/panels/our-team.php:279
+#: inc/customizer/panels/our-team.php:363
+#: inc/customizer/panels/testimonials.php:138
+#: inc/customizer/panels/testimonials.php:206
+#: inc/customizer/panels/testimonials.php:274
+#: inc/customizer/panels/testimonials.php:342
+#: inc/customizer/panels/testimonials.php:410
+msgid "Name:"
+msgstr "Nom complet :"
+
+#: inc/customizer/panels/features.php:72 inc/customizer/panels/features.php:144
+#: inc/customizer/panels/features.php:215
+#: inc/customizer/panels/features.php:270
+#: inc/customizer/panels/features.php:325
+#: inc/customizer/panels/features.php:380 inc/customizer/panels/our-team.php:75
+#: inc/customizer/panels/our-team.php:143
+#: inc/customizer/panels/our-team.php:227
+#: inc/customizer/panels/our-team.php:311
+#: inc/customizer/panels/our-team.php:395 inc/customizer/panels/speak.php:75
+#: inc/customizer/panels/testimonials.php:113
+#: inc/customizer/panels/testimonials.php:181
+#: inc/customizer/panels/testimonials.php:249
+#: inc/customizer/panels/testimonials.php:317
+#: inc/customizer/panels/testimonials.php:385
+msgid "Description:"
+msgstr "Description:"
+
+#: inc/customizer/panels/features.php:42 inc/customizer/panels/features.php:114
+#: inc/customizer/panels/our-team.php:43 inc/customizer/panels/speak.php:43
+#: inc/customizer/panels/testimonials.php:43
+msgid "Show this section?"
+msgstr "Afficher cette section&nbsp;?"
+
+#: inc/customizer/panels/features.php:57 inc/customizer/panels/features.php:129
+#: inc/customizer/panels/features.php:200
+#: inc/customizer/panels/features.php:255
+#: inc/customizer/panels/features.php:310
+#: inc/customizer/panels/features.php:365 inc/customizer/panels/our-team.php:59
+#: inc/customizer/panels/speak.php:59 widgets/widget-address.php:49
+#: widgets/widget-categories.php:49 widgets/widget-contact.php:74
+#: widgets/widget-recent-comments.php:51 widgets/widget-recent-posts.php:70
+msgid "Title:"
+msgstr "Titre:"
+
+#: inc/customizer/panels/blog.php:312
+msgid "Control various related posts settings from here. For a demo-like experience, we recommend you don't change these settings."
+msgstr "Contrôlez des réglages variés des articles similaires ici. Nous vous recommandons de ne pas changer ces réglages."
+
+#: inc/customizer/panels/blog.php:329
+msgid "Show posts title in the carousel?"
+msgstr "Afficher le titre des articles dans le carrousel&nbsp;?"
+
+#: inc/customizer/panels/blog.php:345
+msgid "Show posts date  ?"
+msgstr "Afficher la date&nbsp;?"
+
+#: inc/customizer/panels/blog.php:362
+msgid "Autoplay related carousel ?"
+msgstr "Lecture auto de carrousel&nbsp;?"
+
+#: inc/customizer/panels/blog.php:378
+msgid "How many blog posts to display in the carousel at once ?"
+msgstr "Combien d&rsquo;articles de blog afficher en même temps dans le carrousel&nbsp;?"
+
+#: inc/customizer/panels/blog.php:379
+msgid "No more than 4 posts at once;"
+msgstr "Pas plus de 4 articles à la fois;"
+
+#: inc/customizer/panels/blog.php:402
+msgid "Display pagination controls ?"
+msgstr "Afficher les contrôles de pagination&nbsp;?"
+
+#: inc/customizer/panels/blog.php:403
+msgid "Will be displayed as navigation bullets"
+msgstr "Sera affiché comme des bulles de navigation"
+
+#: inc/customizer/panels/features.php:16
+msgid "Features Panel"
+msgstr "Panneau de fonctions"
+
+#: inc/customizer/panels/features.php:17
+msgid "Features Panel description."
+msgstr "Description du panneau de fonctions"
+
+#: inc/customizer/panels/features.php:98 inc/customizer/panels/our-team.php:26
+#: inc/customizer/panels/speak.php:26 inc/customizer/panels/testimonials.php:26
+msgid "General"
+msgstr "Réglages généraux"
+
+#: inc/customizer/panels/blog.php:195
+msgid "Control visibility of various social sharing networks. The changes made here will reflect on the blog single post view."
+msgstr "Contrôle la visibilité de différents réseaux de partage social. Les changements fait ici seront pour la vue d&rsquo;article de blog."
+
+#: inc/customizer/panels/blog.php:213
+msgid "After content"
+msgstr "Après le contenu"
+
+#: inc/customizer/panels/blog.php:214
+msgid "Before Content"
+msgstr "Avant le contenu"
+
+#: inc/customizer/panels/blog.php:216
+msgid "Sharing Bar Postion: After / Before Content"
+msgstr "Position de barre de partage&nbsp;: Après / avant le contenu"
+
+#: inc/customizer/panels/blog.php:217
+msgid "Initial position: after content"
+msgstr "Position initiale&nbsp;: après le contenu"
+
+#: inc/customizer/panels/blog.php:233
+msgid "Text to display above icons"
+msgstr "Texte à afficher dessus des icônes"
+
+#: inc/customizer/panels/blog.php:234
+msgid "This is the text that will be displayed above the icons. Change this to whatever you feel like"
+msgstr "Ceci est le texte qui sera affiché au dessus des icônes. Changez ceci comme vous le voulez."
+
+#: inc/customizer/panels/blog.php:250
+msgid "Display share on Facebook ?"
+msgstr "Affichage du partage sur Facebook&nbsp;?"
+
+#: inc/customizer/panels/blog.php:266
+msgid "Display share on Twitter ?"
+msgstr "Afficher le partage sur Twitter&nbsp;?"
+
+#: inc/customizer/panels/blog.php:282
+msgid "Display share on LinkedIN ?"
+msgstr "Afficher le partage sur LinkedIn&nbsp;?"
+
+#: inc/customizer/panels/blog.php:298
+msgid "Display share on mail ?"
+msgstr "Afficher le partage par e-mail&nbsp;?"
+
+#: inc/customizer/panels/blog.php:311
+msgid "Related posts"
+msgstr "Articles associés"
+
+#: inc/customizer/panels/blog.php:116
+msgid "Social sharing ?"
+msgstr "Partage social&nbsp;?"
+
+#: inc/customizer/panels/blog.php:134
+msgid "Author info box on single blog post"
+msgstr "Boîte d&rsquo;info auteur sur les articles de blog"
+
+#: inc/customizer/panels/blog.php:135
+msgid "Displayed right at the end of the post"
+msgstr "Affiché juste à la fin de l&rsquo;article"
+
+#: inc/customizer/panels/blog.php:151
+msgid "Related posts carousel ?"
+msgstr "Carrousel d&rsquo;articles similaires&nbsp;?"
+
+#: inc/customizer/panels/blog.php:152
+msgid "Displayed after the author box"
+msgstr "Afficher après la boîte d&rsquo;auteur"
+
+#: inc/customizer/panels/blog.php:163
+msgid "Breadcrumbs"
+msgstr "Fils d'Ariane"
+
+#: inc/customizer/panels/blog.php:164
+msgid "Various breadcrumb related settings, like: breadcrumb prefix, breadcrumb item separator & breadcrumb menu post category visibility setting."
+msgstr "Différents réglages relatifs au fil d&rsquo;Ariane&nbsp;: préfixe, séparateur d&rsquo;élément et visibilité de la catégorie"
+
+#: inc/customizer/panels/blog.php:180
+msgid "Show post category ?"
+msgstr "Afficher la catégorie&nbsp;?"
+
+#: inc/customizer/panels/blog.php:181
+msgid "Show the post category in the breadcrumb ?"
+msgstr "Afficher la catégorie d&rsquo;article dans le fil d&rsquo;ariane&nbsp;?"
+
+#: inc/customizer/panels/blog.php:194
+msgid "Social Sharing"
+msgstr "Partage sociale"
+
+#: inc/customizer/panels/advanced.php:43
+msgid "Enable site preloader"
+msgstr "Activer le préchargement du site"
+
+#: inc/customizer/panels/advanced.php:44
+msgid "Initial status: enabled"
+msgstr "Statut initial&nbsp;:activé"
+
+#: inc/customizer/panels/blog.php:19
+msgid "Single Post Options"
+msgstr "Options d&rsquo;article "
+
+#: inc/customizer/panels/blog.php:20
+msgid "Control various blog options from here. Most of the options from this panel refer to the blog single page view. If you're not familiar with that term, please perform a Google search."
+msgstr "Contrôlez des options variées du blog ici. La plupart des options de ce panneau gèrent la vue de page blog. Si vous n&rsquo;êtes pas familier avec ces termes, effectuez une recherche dans un moteur."
+
+#: inc/customizer/panels/blog.php:30
+msgid "Global"
+msgstr "Global"
+
+#: inc/customizer/panels/blog.php:31
+msgid "This section allows you to control how certain elements are displayed on the blog single page."
+msgstr "Cette section vous permet de contrôler comment vous voulez que certains éléments soient affichés sur la page blog"
+
+#: inc/customizer/panels/blog.php:47
+msgid "Posted on meta on single blog post"
+msgstr "Méta Publié le sur les articles de blog"
+
+#: inc/customizer/panels/blog.php:48
+msgid "This will disable the posted on zone as well as the author name"
+msgstr "Ceci va désactiver la zone Publié le aussi bien que le nom d&rsquo;auteur"
+
+#: inc/customizer/panels/blog.php:64
+msgid "Category meta on single blog post"
+msgstr "Méta Catégorie sur les articles de blog"
+
+#: inc/customizer/panels/blog.php:65
+msgid "This will disable the posted in zone."
+msgstr "Ceci va désactiver la zone Publié dans"
+
+#: inc/customizer/panels/blog.php:81
+msgid "Tags meta on single blog post"
+msgstr "Méta Étiquettes sur les articles de blog"
+
+#: inc/customizer/panels/blog.php:82
+msgid "This will disable the tagged with zone."
+msgstr "Ceci va désactiver la zone d'étiquette."
+
+#: inc/customizer/panels/blog.php:99
+msgid "Breadcrumbs on single blog posts"
+msgstr "Fils d&rsquo;Ariane sur les articles de blog"
+
+#: inc/customizer/panels/blog.php:100
+msgid "This will disable the breadcrumbs"
+msgstr "Ceci va désactiver les fils d&rsquo;Ariane"
+
+#: inc/customizer/panels/advanced.php:26
+msgid "Settings"
+msgstr "Paramètres."
+
+#: inc/customizer/panels/advanced.php:19
+msgid "Advanced Options"
+msgstr "Options du diaporama"
+
+#: inc/components/contact-bar/class.mt-contact-bar.php:79
+#: widgets/widget-contact.php:49
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/components/entry-meta/class.mt-entry-meta.php:80
+msgid " min. read"
+msgstr "min. de lecture"
+
+#: inc/components/entry-meta/class.mt-entry-meta.php:82
+msgid "1 min. read"
+msgstr "1 min. de lecture"
+
+#: inc/components/entry-meta/class.mt-entry-meta.php:100
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "%s de cela"
+
+#: inc/components/entry-meta/class.mt-entry-meta.php:104
+msgctxt "post author"
+msgid "%s"
+msgstr "%s"
+
+#: inc/components/nav-walker/class.mt-nav-walker.php:126
+msgid "Add a menu"
+msgstr "Ajouter un menu"
+
+#: inc/components/contact-bar/class.mt-contact-bar.php:76
+#: widgets/widget-contact.php:45
+msgid "LinkedIn"
+msgstr "Linkedin"
+
+#: inc/components/contact-bar/class.mt-contact-bar.php:73
+#: widgets/widget-contact.php:41
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/components/breadcrumb/class.mt-breadcrumb.php:65
+msgid "Search:"
+msgstr "Rechercher&nbsp;:"
+
+#: inc/components/breadcrumb/class.mt-breadcrumb.php:66
+msgid "404 - Page not Found"
+msgstr "404 - Page non trouvée"
+
+#: inc/components/contact-bar/class.mt-contact-bar.php:70
+#: widgets/widget-contact.php:37
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/components/breadcrumb/class.mt-breadcrumb.php:64
+msgid "Tag:"
+msgstr "Mot-clé:"
+
+#: inc/components/breadcrumb/class.mt-breadcrumb.php:58
+msgid "You Are Here"
+msgstr "Vous êtes ici"
+
+#: inc/components/breadcrumb/class.mt-breadcrumb.php:63
+#: inc/components/breadcrumb/class.mt-breadcrumb.php:134
+#: inc/components/breadcrumb/class.mt-breadcrumb.php:137
+#: inc/components/nav-walker/class.mt-nav-walker.php:146
+msgid "Home"
+msgstr "Au Foyer"
+
+#: header.php:56 header.php:60 searchform.php:10 searchform.php:17
+msgid "Search"
+msgstr "Formulaire de recherche"
+
+#. #-#-#-#-#  regina-lite.pot (Regina Lite 1.0.14)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: header.php:21 inc/customizer/panels/site.php:65
+msgid "Regina Lite"
+msgstr "Regina Lite"
+
+#: functions.php:399
+msgid "Live Preview"
+msgstr "Prévisualisation en ligne"
+
+#: functions.php:394
+msgid "Install Now"
+msgstr "Installer"
+
+#: functions.php:166
+msgid "Footer Sidebar 4"
+msgstr "Zone de Pied de Page 4"
+
+#: functions.php:250 functions.php:251
+msgid "More Themes"
+msgstr "Plus de thèmes"
+
+#: functions.php:294
+msgid "Simple. Powerful. Flexible. That's how we at"
+msgstr "Simple. Puissant. Flexible."
+
+#: functions.php:294
+msgid " Macho Themes"
+msgstr "Macho Themes"
+
+#: functions.php:294
+msgid " build all of our themes."
+msgstr " construit tous nos thèmes."
+
+#: functions.php:332
+msgid " Current theme"
+msgstr "Thème actuel"
+
+#: functions.php:334
+msgid "Customize"
+msgstr "Personnaliser"
+
+#: functions.php:126
+msgid "Blog Sidebar"
+msgstr "Barre latérale du blog"
+
+#: functions.php:136
+msgid "Footer Sidebar 1"
+msgstr "Zone de Pied de Page 1"
+
+#: functions.php:146
+msgid "Footer Sidebar 2"
+msgstr "Zone de Pied de Page 2"
+
+#: functions.php:156
+msgid "Footer Sidebar 3"
+msgstr "Zone de Pied de Page 3"
+
+#: functions.php:81
+msgid "Secondary Menu"
+msgstr "Menu secondaire"
+
+#: sections/section-home-speak.php:20
+msgid "Book appointment"
+msgstr "Réserver un rendez-vous"
+
+#: functions.php:80
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: inc/components/nav-walker/class.mt-nav-walker.php:149
+#: sections/section-home-testimonials.php:126
+#: sections/section-home-testimonials.php:129
+#: sections/section-home-testimonials.php:132
+#: sections/section-home-testimonials.php:135
+msgid "Testimonials"
+msgstr "T&eacute;moignages"
+
+#: comments.php:98
+msgid "Leave a comment to %s"
+msgstr "Laisser un commentaire pour %s"
+
+#: inc/customizer/panels/features.php:51 sections/section-home-features.php:12
+msgid "We help people, like you."
+msgstr "Nous aidons les gens, comme vous."
+
+#: inc/customizer/panels/features.php:66 sections/section-home-features.php:13
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+#: inc/customizer/panels/features.php:123 sections/section-home-features.php:15
+msgid "Why choose us?"
+msgstr "Pourquoi nous choisir&nbsp;?"
+
+#: inc/customizer/panels/features.php:138 inc/customizer/panels/our-team.php:69
+#: inc/customizer/panels/speak.php:69 sections/section-home-features.php:16
+#: sections/section-home-our-team.php:12 sections/section-home-speak.php:4
+msgid "We offer various services lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+msgstr "Nous offrons différents services lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+
+#: inc/customizer/panels/features.php:194 sections/section-home-features.php:19
+msgid "Free Support"
+msgstr "Support Gratuit"
+
+#: inc/customizer/panels/features.php:209
+#: inc/customizer/panels/features.php:264
+#: inc/customizer/panels/features.php:319
+#: inc/customizer/panels/features.php:374 sections/section-home-features.php:20
+#: sections/section-home-features.php:23 sections/section-home-features.php:26
+#: sections/section-home-features.php:29
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+
+#: inc/customizer/panels/features.php:249 sections/section-home-features.php:22
+msgid "Medical Care"
+msgstr "Soin médical"
+
+#: inc/customizer/panels/features.php:304 sections/section-home-features.php:25
+msgid "Life Care"
+msgstr "Soin de vie"
+
+#: inc/customizer/panels/features.php:359 sections/section-home-features.php:28
+msgid "Nervous System"
+msgstr "Système nerveux"
+
+#: inc/customizer/panels/our-team.php:53 sections/section-home-our-team.php:11
+msgid "Our team can help you!"
+msgstr "Notre équipe peut vous aider&nbsp;!"
+
+#: inc/customizer/panels/our-team.php:105 sections/section-home-our-team.php:14
+msgid "Dr. Steve Leeson"
+msgstr "Dr. Steve Leeson"
+
+#: inc/customizer/panels/our-team.php:121
+#: inc/customizer/panels/our-team.php:205
+#: inc/customizer/panels/our-team.php:289
+#: inc/customizer/panels/our-team.php:373 sections/section-home-our-team.php:15
+#: sections/section-home-our-team.php:20 sections/section-home-our-team.php:25
+#: sections/section-home-our-team.php:30
+msgid "Cardiac Clinic, Primary Healthcare"
+msgstr "Cardiac Clinic, Primary Healthcare"
+
+#: inc/customizer/panels/our-team.php:137 sections/section-home-our-team.php:16
+msgid "Dr. Steve Leeson was born and raised in Texas, USA. He received a Bachelor of Science degree in Chemistry from the University of Houston and a..."
+msgstr "Dr. Steve Leeson was born and raised in Texas, USA. He received a Bachelor of Science degree in Chemistry from the University of Houston and a..."
+
+#: inc/customizer/panels/our-team.php:189 sections/section-home-our-team.php:19
+msgid "Dr. Amanda Riss"
+msgstr "Dr. Amanda Riss"
+
+#: inc/customizer/panels/our-team.php:221 sections/section-home-our-team.php:21
+msgid "Dr. Amanda Riss was born and raised in Texas, USA. He received a Bachelor of Science degree in Chemistry from the University of Houston and a..."
+msgstr "Dr. Amanda Riss was born and raised in Texas, USA. He received a Bachelor of Science degree in Chemistry from the University of Houston and a..."
+
+#: inc/customizer/panels/our-team.php:273 sections/section-home-our-team.php:24
+msgid "Dr. Mick Harold"
+msgstr "Dr. Mick Harold"
+
+#: inc/customizer/panels/our-team.php:305 sections/section-home-our-team.php:26
+msgid "Dr. Mick Harold was born and raised in Texas, USA. He received a Bachelor of Science degree in Chemistry from the University of Houston and a..."
+msgstr "Dr. Mick Harold was born and raised in Texas, USA. He received a Bachelor of Science degree in Chemistry from the University of Houston and a..."
+
+#: inc/customizer/panels/our-team.php:357 sections/section-home-our-team.php:29
+msgid "Dr. Jenna Crew"
+msgstr "Dr. Jenna Crew"
+
+#: inc/customizer/panels/our-team.php:389 sections/section-home-our-team.php:31
+msgid "Dr. Jenna Crew was born and raised in Texas, USA. He received a Bachelor of Science degree in Chemistry from the University of Houston and a..."
+msgstr "Dr. Jenna Crew was born and raised in Texas, USA. He received a Bachelor of Science degree in Chemistry from the University of Houston and a..."
+
+#: inc/customizer/panels/testimonials.php:107
+#: inc/customizer/panels/testimonials.php:175
+#: inc/customizer/panels/testimonials.php:243
+#: inc/customizer/panels/testimonials.php:311
+#: inc/customizer/panels/testimonials.php:379
+#: sections/section-home-testimonials.php:15
+#: sections/section-home-testimonials.php:19
+#: sections/section-home-testimonials.php:23
+#: sections/section-home-testimonials.php:27
+#: sections/section-home-testimonials.php:31
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+#: inc/customizer/panels/testimonials.php:132
+#: inc/customizer/panels/testimonials.php:200
+#: inc/customizer/panels/testimonials.php:268
+#: inc/customizer/panels/testimonials.php:336
+#: inc/customizer/panels/testimonials.php:404
+#: sections/section-home-testimonials.php:17
+#: sections/section-home-testimonials.php:21
+#: sections/section-home-testimonials.php:25
+#: sections/section-home-testimonials.php:29
+#: sections/section-home-testimonials.php:33
+msgid "Jenny Royal"
+msgstr "Jenny Royal"
+
+#: inc/customizer/panels/testimonials.php:148
+#: inc/customizer/panels/testimonials.php:216
+#: inc/customizer/panels/testimonials.php:284
+#: inc/customizer/panels/testimonials.php:352
+#: inc/customizer/panels/testimonials.php:420
+#: sections/section-home-testimonials.php:18
+#: sections/section-home-testimonials.php:22
+#: sections/section-home-testimonials.php:26
+#: sections/section-home-testimonials.php:30
+#: sections/section-home-testimonials.php:34
+msgid "Manager @ REQ"
+msgstr "Manager @ REQ"
+
+#: inc/customizer/panels/speak.php:53 sections/section-home-speak.php:3
+msgid "Speak with our doctors"
+msgstr "Parlez avec nos médecins"
+
+#: header.php:52 sections/section-home-features.php:45
+msgid "Book Appointment"
+msgstr "Réserver un rendez-vous"
+
+#: sections/section-home-features.php:76 sections/section-home-features.php:93
+#: sections/section-home-features.php:110
+#: sections/section-home-features.php:127 sections/section-home-our-team.php:94
+#: sections/section-home-our-team.php:127
+#: sections/section-home-our-team.php:160
+#: sections/section-home-our-team.php:193 template-parts/content-search.php:23
+#: template-parts/content.php:23
+msgid "Read more"
+msgstr "Lire plus"
+
+#: comments.php:98 inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr "Écrire un commentaire"
+
+#: comments.php:98
+msgid "Post Comment"
+msgstr "Poster le Commentaire"
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "Commentaires clos."
+
+#: comments.php:35
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réaction au sujet de &laquo;&nbsp;%2$s&nbsp;&raquo;"
+msgstr[1] "%1$s réactions au sujet de &laquo;&nbsp;%2$s&nbsp;&raquo;"
+
+#: comments.php:28 comments.php:52
+msgid "Newer Comments"
+msgstr "Commentaires plus récents"
+
+#: comments.php:27 comments.php:51
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: comments.php:24 comments.php:48
+msgid "Comment navigation"
+msgstr "Navigation Commentaire"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.machothemes.com/themes/regina-lite/"
+msgstr "http://www.machothemes.com/themes/regina-lite/"
+
+#. Author of the plugin/theme
+msgid "Macho Themes"
+msgstr "Macho Themes"
+
+#. Author URI of the plugin/theme
+msgid "http://www.machothemes.com/"
+msgstr "http://www.machothemes.com/"

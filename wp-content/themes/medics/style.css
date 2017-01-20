@@ -1,0 +1,2161 @@
+/*
+Theme Name: Medics
+Theme URI: http://fasterthemes.com/wordpress-themes/Medics
+Author: FasterThemes
+Author URI: http://fasterthemes.com/
+Description: Medics is a lightweight, faster, clean, super flexible and bootstrap based responsive theme mainly designed for doctors and hospitals but can be used in any business or personal website as well. Medics Theme is built on top of Twitter Bootstrap which means that your site can be displayed on every device (pc, laptop, mobile devices, tablets etc) without horizontal scrolling.It has got custom widgets, theme-options etc in order to get it customized as per your need. Home page layout contains in-built and recent posts are touch friendly slider based on owl carousel. Pro or Paid version includes custom post types for managing team (doctors), slider on the home page and many more features !
+Version: 1.6
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Medics Theme, Copyright 2014 fasterthemes.com
+Medics is distributed under the terms of the GNU GPL
+Tags: blue, light, right-sidebar, left-sidebar, responsive-layout, theme-options, three-columns, custom-menu, featured-image-header, full-width-template, sticky-post, threaded-comments, custom-background, custom-header, editor-style, featured-images, translation-ready
+Text Domain: medics
+This theme, like WordPress, is licensed under the FasterThemes.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'Scada', sans-serif;
+}
+.container-medics{
+	width:1130px;
+}
+.logo-center{
+	width:130px;
+}
+.no-padding
+{
+	padding-left:0px !important;
+	padding-right:0px !important; 
+}
+.no-padding-left{
+	padding-left:0px !important;
+}
+.no-padding-right{
+	padding-right:0px !important
+}
+.top-header{
+	background-color:#f8f8f8;
+	border: 1px solid #F1F1F1;
+}
+.header-col-1{
+	width:80%;
+	float:left;
+	text-align:right;
+}
+.header-col-1 span,
+.help-line span{
+	color:#747474;
+	font-size:13px;
+}
+.header-col-1 a,
+.help-line a{
+	color:#00c2e5;
+}
+.header-col-2{
+	width:20%;
+	float:right;
+}
+.social-icons ul{
+   float: right;
+   list-style: none outside none;
+   margin:0px;
+}
+.social-icons ul li a i {
+    color: #989898;
+    font-size: 18px;
+    margin-top: 2px;
+}
+.help-line{
+    margin: 10px 0;
+}
+
+.top-email-id {
+	margin: 10px 0 6px;
+}
+/**** MENU ****/
+.navbar-header{
+	float:none;
+}
+.logo-menu{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.blue-title-color{
+	color:#00c2e5;
+}
+.search-form .search-submit{
+    background-color: #428BCA;
+    border-color: #357EBD;
+    color: #FFFFFF;
+	padding: 5px 20px;
+	border: medium none;
+}
+.custom-header-img > a > img {
+    width: 100%;
+}
+
+/*==================== M E N U -- C S S =============*/
+.navbar-default {
+    background:none;
+    border:none;
+	margin-bottom:0px;
+}
+.medics-menu, .medics-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.medics-menu:before, .medics-menu:after {
+	content: "";
+	display: table;
+}
+.medics-menu:after {
+	clear: both;
+}
+.medics-menu {
+	zoom: 1;
+}
+.medics-menu > li {
+    float: left !important;
+    margin: 6px 9px 0;
+    position: relative;
+}
+.medics-menu > li ul li{
+    float: left !important;
+    margin:0;
+    position: relative;
+}
+.medics-menu a {
+	float: left;
+	text-decoration: none;
+	margin-bottom:-2px;
+	font-size:16px;
+	color:#313131;
+	padding: 18px 14px !important;
+	text-transform: uppercase;
+	border-bottom:2px solid rgba(0, 0, 0, 0);
+}
+.medics-menu a:hover, 
+.medics-menu a:focus,
+.medics-menu .active a {
+	color:#FFF !important;
+	background-color:#00c2e5 !important;
+	border-bottom:2px solid #a2a2a2;
+	
+}
+.medics-menu li:hover > a {
+	color: #fff;
+	text-decoration: none;
+	background-color:#00c2e5;
+}
+*html .medics-menu li a:hover { /* IE6 only */
+	color: #fafafa;
+}
+.medics-menu ul {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	z-index: 1;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	background-color:#fff;
+	border:1px solid #e4e4e4;
+}
+.medics-menu li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+	margin: 0;
+}
+.medics-menu ul ul {
+	top: 0;
+	margin: 0 0 0 0px;
+	_margin: 0; /*IE6 only*/
+	-moz-box-shadow: -1px 0 0 rgba(255,255,255,.3);
+	-webkit-box-shadow: -1px 0 0 rgba(255,255,255,.3);
+	box-shadow: -1px 0 0 rgba(255,255,255,.3);
+	left: 100%;
+	width: 100%;
+}
+.medics-menu ul li a {
+	color: #000 !important;
+	text-decoration: none;
+}
+.medics-menu ul li a:hover, .medics-menu ul li a:focus, .medics-menu ul li a:active {
+	color: #fff !important;
+	background-color:#00c2e5;
+}
+.medics-menu ul li {
+	float: none;
+	display: block;
+	border: 0;
+	_line-height: 0; /*IE6 only*/
+}
+.medics-menu ul li:last-child {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.medics-menu ul a {
+	padding: 10px;
+	width: 160px;
+	_height: 10px; /*IE6 only*/
+	display: block;
+	float: none;
+	text-transform: none;
+	text-align: left;
+	color:#313131;
+}
+.medics-menu ul li:first-child > a {
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+.medics-menu ul li:first-child a:hover:after {
+	border-bottom-color: #fff;
+}
+.medics-menu ul ul li:first-child a:hover:after {
+	border-right-color: #00c2e5;
+	border-bottom-color: transparent;
+}
+.medics-menu ul li:last-child > a {
+	-moz-border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+}
+.medics-menu li ul li {
+	border-bottom: 1px solid #ccc;
+}
+#menu-trigger {
+	display: none;
+}
+.navbar-collapse ul ul li a {
+	margin: 0;
+	padding-bottom: 5px !important;
+	padding-top: 5px !important;
+	color: #313131 !important;
+	border-bottom: none;
+}
+.medics-menu ul li a:hover, .medics-menu ul li a:focus, .medics-menu ul li a:active {
+	border-bottom: none;
+}
+
+/*============= M E N U -- C S S   E N D S   H E R E ===========*/
+.home-banner {
+    margin-bottom: 20px;
+}
+
+/*** FOOTER **/
+.recent-col-1 img {
+    max-width: 103px;
+	margin-bottom:5px;
+}
+.footer-menu{
+	background-color:#222222;
+	padding-bottom:30px;
+	color:#FFF;
+	padding-top:5px;
+}
+.footer-menu h1{
+	font-size:22px;
+	color:#00c2e5;
+	text-transform:uppercase;
+	margin-bottom:7px;
+}
+.footer-menu ul{
+	list-style:none;
+	padding:0px;
+
+}
+.footer-menu ul li{
+	margin:12px 0px;
+}
+.footer-menu ul li i{
+	margin-right:10px;
+} 
+.footer-menu ul li a{
+	color:#d6d6d6;
+	font-size:15px;
+}
+.footer-title-line {
+    border-top: 1px dashed #606060;
+    margin: 6px 0 24px;
+    width: 30%;
+}
+.form-control{
+	background-color:transparent;
+	margin-bottom:5px;
+	border-color:#444444;
+	border-radius:1px;
+}
+.form-horizontal,
+.form-group{
+	margin:0px !important;
+}
+.send-button{
+	font-size:16px;
+	color:#FFF;
+	background-color:#00c2e5;
+	border-radius:1px;
+	border:none;
+	padding: 5px 25px;
+}
+.recent-blog-count a{
+	color:#d6d6d6;
+}
+.recentBlog ul li{
+	margin-top:0px;
+}
+.recent-bolg .recent-col-1{
+	width:46%;
+	float:left;
+}
+.recent-bolg .recent-col-2{
+	width:50%;
+	float:left;
+}
+.recent-bolg p ,
+.recent-bolg h2{
+	color:#d6d6d6;
+	font-size:14px;
+	padding-top:5px;
+	margin:5px 0px;
+}
+.recent-bolg h6{
+	margin:0px;
+	margin-bottom:10px;
+}
+.recent-bolg h6 a{
+	font-size:15px;
+	color:#d6d6d6;
+}
+.footer-single-post p a{
+	color:#d6d6d6;
+}
+.recent-blog-count > div{
+	float:left;
+	color:#D6D6D6;
+	border: 1px solid #444444;
+	font-size:12px;
+    padding-left: 4px;
+    padding-right: 10px;
+}
+.recent-blog-count div i{
+    margin-right: 2px;
+    padding: 10px 5px;	
+	color:#9a9a9a;
+}
+/*** END FOOTER **/
+/** CSS SET FOOTER **/
+.footer-menu table {
+    width: 100%;
+}
+.footer-menu select {
+    color: #000000;
+    padding: 5px;
+    width: 100%;
+}
+.footer-menu .children li {
+    border-bottom: medium none;
+    padding: 5px 0 0 20px;
+}
+.footer-menu .search-form {
+    color: #000000;
+}
+.footer-menu .search-submit, .main-sidebar .search-submit {
+    background-color: #00C2E5 !important;
+    border: medium none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 3px 12px;
+}
+.footer-menu .textwidget img {
+    height: auto;
+    max-width: 100%;
+}
+.footer-menu .tagcloud a {
+    border: 1px solid #E5E5E5;
+    color: #FFFFFF;
+    display: inline-table;
+    font-size: 85% !important;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.footer-menu .sub-menu li {
+    border-bottom: medium none;
+    padding: 5px 0 0 20px;
+}
+
+
+
+/***** copyright *******/
+.copyright{
+	background-color:#101010;
+        padding-top: 35px;
+        color: #fff;
+}
+.copyright p{
+	color:#a2a2a2;
+	font-size:14px;
+	padding:15px 0px;
+	margin:0px;
+}
+.copyright ul{
+    margin: 0;
+    padding: 15px 0;	
+}
+.copyright ul li a,
+.copyright ul li{
+	font-size:14px;
+	color:#a2a2a2;
+}
+/***** END copyright *******/
+
+.footer-widget-1 li:before,
+.footer-widget-2 li:before
+{
+    color: #0088CC;
+    content: url(images/footer--icon1.png);
+    margin-right:10px;
+    position: relative;
+    transition: left 0.2s ease 0s;
+}
+.footer-widget-3 li:before,
+.footer-widget-4 li:before
+{
+    color: #0088CC;
+    content: url(images/footer--icon2.png);
+    margin-right:10px;
+    position: relative;
+    transition: left 0.2s ease 0s;
+}
+.center-welcome-line {
+    border-top: 2px solid #00c2e5;
+     margin: 10px auto 20px;
+    width: 21%;
+}
+.technology{
+	margin-bottom:30px;
+}
+.technology-blog{
+	text-align:center;
+}
+.technology-blog img{
+	margin:0px auto;
+	max-width: 100px;
+}
+.technology-blog h1{
+	color:#000000;
+	font-size:18px;
+	text-transform:uppercase;
+	margin-bottom:16px;
+}
+.technology-blog p{
+	font-size:14px;
+	color:#595757;
+	line-height:23px;
+}
+.main-title h1{
+	font-size:24px;
+	color:#000000;
+	margin: 20px 0px 0;
+	text-transform: uppercase;
+}
+.full-line-title {
+    border-top: 1px solid #E9E9E9;
+    margin: 5px -2px 20px;
+    width: 100%;
+}
+.our-doctors img{
+	margin:0px auto;
+	max-width:206px;
+}
+.doctors-title h1{
+	color:#6f6f6f;
+	font-size:18px;
+	margin: 5px 0;
+}
+.doctors-title p{
+	font-size:14px;
+	color:#00c2e5;
+}
+.doctors-title {
+    border: 1px solid #E9E9E9;
+    margin: 0 auto;
+    text-align: center;
+    width: 77%;
+}
+.home-blog{
+	margin-bottom:25px;
+	padding-right:15px;
+    width: 100%;
+}
+.blog-date h6{
+	font-size:14px;
+	color:#7a7a7a;
+	text-align:center;
+	margin-top:0px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.blog-contan p{
+	font-size:14px;
+	color:#5c5c5c;
+}
+.blog-contan h1{
+	font-size:18px;
+	color:#000000;
+	margin-top:0px;
+}
+.dr-name-icon {
+    margin: 5px 0 10px;
+}
+.dr-name-icon i{
+	color:#9a9a9a;
+	margin-right:5px;
+}
+.dr-name-icon span{
+	margin-right:10px;
+}
+.blog-comment{
+	background-color:#00c2e5;
+	color:#FFF;
+	text-align:center;
+	padding:6px;
+}
+.blog-comment i{
+	margin-right:8px;
+}
+.blog-contan span a{
+	color:#00c2e5;
+	text-transform:uppercase;
+	font-size:16px;
+}
+.blog-date {
+    border: 1px solid #f1f1f1;
+	margin-right: 5px;
+}
+.blog-contan {
+    margin-right: -5px;
+}
+.twiterpost{
+	background-color:#00c2e5;
+	color:#FFF;
+}
+.twiterpost p{
+	font-size: 15px;
+    margin-bottom: 0;
+    padding: 15px 0px;
+}
+.icon-msg {
+	float:left;
+	width:80%;
+}
+.twiterpost i{
+	font-size: 30px;
+    margin: 10px 30px 9px 0px;
+	float:left;
+}
+.header-blog h1{
+    color: #181818;
+    font-size: 16px;
+    margin: 35px 0px;
+}
+.header-blog span {
+    background-color: #00C2E5;
+    border-radius: 4px;
+    color: #FEFFFF;
+    font-size: 18px;
+    padding: 6px 21px;
+}
+.header-blog{
+	border-top:3px solid #00c2e5;
+	background-color:#f4f4f4;
+	padding:0px;
+	margin-bottom: 41px;
+}
+.blog-date-col-1 h2 {
+    color: #7A7A7A;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.single-blog{
+ 	margin-bottom:15px;
+	clear:both;
+}
+.single-blog .blog-date-col-1 {
+    border: 1px solid #F1F1F1;
+    float: left;
+    margin-top: 15px;
+    text-align: center;
+    width: 7%;
+    clear: both; 
+}
+.single-blog .blog-contan-col-2 {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 89%;
+}
+.single-blog .blog-contan-col-2 > h1{
+	margin-top:0px;
+	font-size:18px;	
+	color:#181818;
+	clear:both;
+}
+.single-blog .blog-contan-col-2 h1 a{
+	font-size:18px;
+	color:#181818;
+
+}
+.single-blog .blog-contan-col-2 .medics-contant {
+    color: #181818;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+	text-align: justify;
+	margin-right:32px;
+	clear:both;
+}
+.single-blog .blog-contan-col-2 .reading > a{
+	color:#00c2e5;
+	border:1px solid #00c2e5;
+	font-size:15px;
+	 padding: 8px 15px
+}
+.single-blog .blog-contan-col-2 .reading{
+	margin-top:10px;
+}
+
+.dr-name-icon li {
+    list-style: none;
+	display: inline;
+}
+.dr-name-icon a {
+    color: #333333;
+}
+.recent-post-blog {
+    margin-bottom: 25px;
+	margin-top: 25px;
+}
+.blog-tags {
+    margin-top: 25px;
+}
+.recent-single-blogs h6{
+	color:#181818;
+	font-size:15px;
+}
+.recent-single-blogs h2,
+.recent-single-blogs p{
+	color:#5c5c5c;
+	font-size:14px;
+}
+.recent-single-blog-count > div{
+	float:left;
+	color:#181818;
+	border: 1px solid #c8c8c8;
+	font-size:12px;
+	    padding-left: 2px;
+    padding-right: 7px;
+}
+.recent-single-blog-count div i{
+    margin-right: 2px;
+    padding: 10px 5px;	
+	color:#9a9a9a;
+}
+
+.main-sidebar {
+    margin-bottom: 15px;
+}
+.main-sidebar .sidebar-title h1 {
+    border-bottom: 1px dashed #606060;
+    color: #00C2E5;
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.main-sidebar h1 {
+    color: #212121;
+    font-size: 14px;
+    margin: 0 0 -1px;
+    padding-bottom: 13px;
+    padding-right: 0px;
+}
+.main-sidebar ul li a {
+    color: #181818;
+    font-size: 16px;
+}
+.main-sidebar ul li {
+    border-bottom: 1px solid #E9E9E9;
+    padding: 7px 0;
+}
+.main-sidebar ul {
+    list-style: none outside none;
+    padding-left: 0;
+}
+
+.main-sidebar .recent-col-1 img {
+    max-width: 103px;
+	margin-bottom:7px;
+}
+.main-sidebar .recent-blog-count {
+	clear:both;
+}
+.main-sidebar .recent-col-2 > h6{
+	margin:0px;
+}
+.main-sidebar .recent-col-2 > h6 a{
+	color:#181818;
+	font-size:15px;
+}
+.main-sidebar .recent-col-1 {
+    float: left;
+    width: 46%;
+}
+.main-sidebar .recent-bolg .recent-col-2 {
+    float: left;
+    width: 50%;
+}
+.main-sidebar .recent-bolg p, .recent-bolg h2 {
+    clear: both;
+    color: #D6D6D6;
+    font-size: 14px;
+    margin: 5px 0;
+}
+.main-sidebar .recent-blog-count > div {
+    border: 1px solid #C8C8C8;
+    color: #181818;
+    float: left;
+    font-size: 12px;
+    padding-left: 4px;
+    padding-right: 10px;
+}
+.main-sidebar .footer-single-post p a{
+	color:#181818;
+}
+.main-sidebar .children li,
+.main-sidebar .sub-menu li {
+    border-bottom: medium none;
+    padding: 5px 0 0 20px;
+}
+ 
+.main-sidebar select {
+    border: 1px solid #C8C8C8;
+    padding: 5px;
+}
+.medics-next-link > a,
+.medics-previous-link > a {
+    color: #00C2E5;
+}
+.medics-default-pagination {
+    background-color: #F8F8F8;
+    padding: 15px 5px;
+	margin-bottom:30px;
+	width:94%;
+	margin-top:20px;
+}
+.blog-contan-col-2  .medics-contant > a {
+    border: 1px solid #00C2E5;
+    color: #00C2E5;
+    display: table;
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 5px 20px;
+}
+.blog-tags > a {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: inline-table;
+    margin-bottom: 17px;
+    margin-right: -3px;
+    padding: 7px 8px;
+}
+.paging-blog{
+	margin-bottom: 20px;
+}
+
+.categories-count{
+	float:right;	
+}
+.form-control {
+    background-color: #222222;
+    border: 1px solid #444444;
+    border-radius: 1px;
+    margin-bottom: 10px;
+}
+.blog-send-button {
+    background-color: #00C2E5;
+    border: medium none;
+    border-radius: 1px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+.single-blogtitle h1{
+	color:#000000;
+	font-size:18px;
+	text-transform:uppercase;
+	margin-bottom:26px;
+}
+.single-blogtitle h1:after {
+    border-top: 1px solid #d5d5d5;
+    content: " ";
+    display: inline-block;
+    margin: 0 0 5px 6px;
+    width: 79%;
+}
+.comment-form label,
+.form-allowed-tags,
+.comment-notes,
+.screen-reader-text {
+    display: none;
+}
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-url input{
+    background-color: #F9F9F9;
+    border: 1px solid #EEEEEE;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-top: 12px;
+    padding: 8px;
+    width: 29.33%;
+	color:#555555;
+}
+.comment-form-comment textarea {
+    background-color: #F9F9F9;
+    border: 1px solid #EEEEEE;
+    height: 90px;
+    padding: 9px;
+    width: 93%;
+	color:#555555;
+}
+.comment-respond h3:after,
+.comments-title:after {
+    border-top: 1px solid #D5D5D5;
+    content: " ";
+    display: inline-block;
+    margin: 0 0 5px 6px;
+    width: 79%;
+}
+.comment-respond h3,
+.comments-title{
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+}
+#comments > ul {
+    padding: 0;
+	list-style:none;
+}
+
+.form-submit  input{
+    background-color: #00C2E5;
+    border: medium none;
+    border-radius: 1px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+.comment-box .comment-col-1 {
+    float: left;
+    margin-right: 15px;
+    width: 6%;
+	clear:both;
+}
+.comment-box .comment-col-1 img{
+	margin:0px auto;
+	margin-top:30px;
+	max-height:40px;
+	max-width:40px;
+	border: 1px solid #CCCCCC;
+}
+.comment-box .comment-col-2{
+	width:84%;
+	float:left;
+}
+.comment-box .comment-col-2 span,
+.comment-box .comment-col-2 a{
+	color:#017e94;
+	font-size:14px;
+	margin-right:10px;
+}
+.comment-box .comment-col-2 p {
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #DFDFDF;
+    color: #6A6A6A;
+    margin: 5px 10px 10px;
+    padding: 5px 8px 35px;
+}
+.comment-box {
+    margin-bottom: 0px;
+}
+.input-text-box {
+    background-color: #F9F9F9;
+    border: medium none;
+    float: left;
+	margin-right: 20px;
+    width: 29.33%;
+	margin-top:11px;
+}
+.message-box {
+    background-color: #F9F9F9;
+    border: medium none;
+    width: 93%;
+}
+.our-doctors-blogs{
+    margin-bottom: 25px;
+}
+.our-partners {
+    margin-bottom: 57px;
+	clear:both;
+}
+.black-box {
+    background-color:transparent;
+    border: 1px solid #f1f1f1;
+    font-size: 14px;
+    font-weight: bold;
+    height: 22px;
+    margin: 3px 0 0;
+    padding: 2px 0 0 8px;
+    width: 24px !important;
+}
+.black-box i {
+    margin: 2px;
+}
+.prev {
+    float: right;
+	color:#a0a0a0;
+	cursor: pointer;
+}
+.next {
+    float: right;
+	color:#a0a0a0;
+	cursor: pointer;
+}
+.inputtextbox-name{
+	width:48%;
+	margin-right:5px;
+	float:left;
+}
+.inputtextbox-email {
+    float: right;
+    margin-right: 0;
+    width: 48%;
+}
+.paging-blog a{
+	font-size:16px;
+	color:#000;
+}
+.paging-blog i {
+    color: #FFFFFF;
+    font-size: 17px;
+    margin: 2px;
+}
+.leave-form {
+    margin-bottom: 50px;
+}
+.left-right-box{
+	background-color:#00c2e5;
+}
+
+.main-sidebar .search-submit{
+    background-color: #00C2E5;
+    border: medium none;
+    border-radius: 1px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 14px;
+    padding: 4px 8px;
+    text-transform: uppercase;
+}
+.main-sidebar .textwidget img,
+.main-sidebar .textwidget select {
+    max-width: 100%;
+}
+.main-sidebar #calendar_wrap > table,
+.blog-contan-col-2 table, 
+.main-sidebar select{
+    width: 100%;
+}
+.main-sidebar .tagcloud a {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: inline-table;
+    font-size: 14px !important;
+    margin-bottom: 5px;
+    margin-right: -3px;
+    padding: 6px 9px;
+}
+.main-sidebar .children {
+    margin-left: 15px;
+}
+.main-sidebar .recent-blog-count a {
+    color: #181818;
+}
+.main-sidebar .size-large,
+.alignnone.size-full {
+    height: auto;
+}
+
+.blog-contan-col-2 > img{
+	margin-bottom:20px;
+}
+.blog-contan-col-2 img,
+.wp-caption img{
+    max-width: 100%;
+	height: auto;
+    margin: 0px 10px 10px 0; 
+}
+.main-sidebar label{
+	width:100%;
+}
+input[type="search"]
+ {
+    padding: 4px 3px;
+	width:100%;
+	border: 1px solid #CDCDCD;
+}
+.medics-margin-bottom{
+margin-bottom:20px;
+}
+.wp-caption{
+ max-width:100%;
+}
+.footer-single-post {
+    margin-bottom: 15px;
+}
+.medics-single-blog{
+    background-color: #F4F4F4;
+    border-top: 3px solid #00C2E5;
+    margin-bottom: 60px;
+    padding: 0;
+}
+.medics-single-blog h1 {
+	float:left;
+	width:50%;
+}
+.medics-next-link {
+    float: right;
+}
+.header-breadcrumb {
+    float: right;
+	margin: 37px 0 31px;
+}
+.medics-leftbar .comments-area {
+    float: right;
+    width: 92%;
+}
+.medics-leftbar .comment-form-comment textarea {
+    width: 100%;
+}
+.medics-leftbar .comment-respond h3:after, .comments-title:after {
+    width: 83%;
+}
+.medics-leftbar .single-blog .blog-contan-col-2 {
+    float: right;
+    width: 85%;
+}
+.medics-leftbar .single-blog .blog-contan-col-2 p {
+    margin-right: 0;
+	clear:both;
+}
+.medics-leftbar .single-blog .blog-date-col-1 {
+    margin-left: 60px;
+}
+.medics-leftbar .comment-box .comment-col-2 {
+    float: left;
+    width: 91%;
+}
+.left-sidebar .main-sidebar{
+	padding-left:0px;
+}
+.medics-fullsidebar .single-blog .blog-contan-col-2 {
+    width: 93%;
+}
+.medics-fullsidebar .single-blog .blog-date-col-1{
+	width:6%;
+}
+.medics-fullsidebar .single-blog .blog-contan-col-2 p {
+    margin-right: 0;
+}
+.medics-fullsidebar .comment-form-comment textarea{
+	width:100%;
+}
+.medics-fullsidebar .comment-respond h3:after, .comments-title:after{
+	width:88%;
+}
+.homepage-theme-title h2{
+	 color: #040404;
+    font-size: 28px;
+    margin-bottom: 3px;
+    text-align: center;
+    text-transform: uppercase;
+	margin-top:20px;
+	padding-top:20px;
+	clear:both;
+}
+.homepage-theme-title h3{	
+	color: #040404;
+    font-size: 20px;
+    text-align: center;
+	margin-top:10px;
+	margin-bottom:12px;
+}
+.fa.fa-tags {
+    margin-right: 1px !important;
+}
+/***** Gallery ******/
+.gallery {
+	margin-bottom: 20px;
+}
+.gallery-item {
+	float: left;
+	margin: 0 4px 4px 0;
+	overflow: hidden;
+	position: relative;
+}
+.gallery-columns-1 .gallery-item {
+	max-width: 100%;
+}
+.gallery-columns-2 .gallery-item {
+	max-width: 48%;
+	max-width: -webkit-calc(50% - 4px);
+	max-width: calc(50% - 4px);
+}
+.gallery-columns-3 .gallery-item {
+	max-width: 32%;
+	max-width: -webkit-calc(33.3% - 4px);
+	max-width: calc(33.3% - 4px);
+}
+.gallery-columns-4 .gallery-item {
+	max-width: 23%;
+	max-width: -webkit-calc(25% - 4px);
+	max-width: calc(25% - 4px);
+}
+.gallery-columns-5 .gallery-item {
+	max-width: 19%;
+	max-width: -webkit-calc(20% - 4px);
+	max-width: calc(20% - 4px);
+}
+.gallery-columns-6 .gallery-item {
+	max-width: 15%;
+	max-width: -webkit-calc(16.7% - 4px);
+	max-width: calc(16.7% - 4px);
+}
+.gallery-columns-7 .gallery-item {
+	max-width: 13%;
+	max-width: -webkit-calc(14.28% - 4px);
+	max-width: calc(14.28% - 4px);
+}
+.gallery-columns-8 .gallery-item {
+	max-width: 11%;
+	max-width: -webkit-calc(12.5% - 4px);
+	max-width: calc(12.5% - 4px);
+}
+.gallery-columns-9 .gallery-item {
+	max-width: 9%;
+	max-width: -webkit-calc(11.1% - 4px);
+	max-width: calc(11.1% - 4px);
+}
+.gallery-columns-1 .gallery-item:nth-of-type(1n), .gallery-columns-2 .gallery-item:nth-of-type(2n), .gallery-columns-3 .gallery-item:nth-of-type(3n), .gallery-columns-4 .gallery-item:nth-of-type(4n), .gallery-columns-5 .gallery-item:nth-of-type(5n), .gallery-columns-6 .gallery-item:nth-of-type(6n), .gallery-columns-7 .gallery-item:nth-of-type(7n), .gallery-columns-8 .gallery-item:nth-of-type(8n), .gallery-columns-9 .gallery-item:nth-of-type(9n) {
+	margin-right: 0;
+}
+.gallery-caption {
+	background-color: rgba(0, 0, 0, 0.7);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	max-height: 50%;
+	opacity: 0;
+	padding: 6px 8px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	width: 100%;
+}
+.gallery-caption:before {
+	content: "";
+	height: 100%;
+	min-height: 49px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.gallery-item:hover .gallery-caption {
+	opacity: 1;
+}
+.gallery-columns-7 .gallery-caption, .gallery-columns-8 .gallery-caption, .gallery-columns-9 .gallery-caption {
+	display: none;
+}
+.gallery img {
+	margin: 0px;
+	height:auto;
+}
+.sticky .entry-date {
+	display: none;
+}
+.bypostauthor > article .fn:before {
+	margin: 0 2px 0 -2px;
+	position: relative;
+	top: -1px;
+}
+
+
+/**END Gallery **/
+#doctors .item img,  
+#home-banner .item img,
+#our-partners .item img{
+	display: block;	
+	max-width: 100%;
+	height: auto;
+}
+
+#our-partners .item{
+	margin: 3px;
+}
+
+#home-banner .item{
+	margin: 0px;
+	position: relative;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+	margin-bottom: 0 !important;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em !important;
+	margin-bottom: 0 !important;
+}
+.wp-caption {
+    background: none repeat scroll 0 0 #00C2E5;
+    clear: both;
+    margin-bottom: 14px;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.wp-caption-text {
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    font-weight: normal;
+    margin: 0 auto !important;
+    padding: 8px 0;
+    text-align: center !important;
+}
+.wp-caption-text > a {
+    color: #181818;
+}
+.blog-contan-col-2  p {
+    color: #343434;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.medics-entry-meta {
+    float: left;
+    margin-right: 15px;
+}
+.medics-home-blog-img img{
+	max-width:100%;
+	height:150px;
+	margin-bottom:15px;
+}
+
+.home-blog .blog-contan h1 a{
+    color: #000000;
+    font-size: 18px;
+}
+.home-blog .dr-name-icon i {
+    color: #9A9A9A;
+    margin-right: 5px;
+}
+.home-blog .dr-name-icon {
+    margin: 5px 0 10px;
+}
+.home-blog .blog-contan span a,
+.home-blog .blog-contan span {
+    color: #9a9a9a;
+    font-size: 14px;
+    text-transform:none;
+}
+.homepage-theme-title {
+    margin-bottom: 40px;
+}
+.medics-homeblog{
+	z-index:1;
+	clear:both;
+}
+.medics-download-link a {
+    border: 1px solid #CCCCCC;
+    color: #FFFFFF;
+    display: table;
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+.medics-download-link a:hover{
+	color:#ffffff;
+}
+.main-sidebar select {
+	margin-bottom:20px;
+}
+
+.home-banner .item > h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-left: 20%;
+    position: absolute;
+    text-align: left;
+    text-transform: uppercase;
+    top: 31px;
+    width: 40%;
+    z-index: 999;
+}
+.home-banner .slidetext {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 20%;
+    position: absolute;
+    text-align: left;
+    top: 100px;
+    width: 40%;
+    z-index: 999;
+}
+
+.home-banner .slidetext a {
+    border: 1px solid #CCCCCC;
+    color: #FFFFFF;
+    display: table;
+    margin-top: 21px;
+    padding: 3px 11px;
+}
+.footer-single-post .recent-blog-count > div{
+	padding-right: 6px;
+}
+
+.owl-controls .owl-buttons div {
+    background: none repeat scroll 0 0 #56717b;
+    border-radius: 30px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px 18px;
+}
+.owl-controls .owl-buttons .owl-prev {
+   left: 5px;
+    position: relative;
+    top: 230px;
+    z-index: 99;
+}
+.owl-controls .owl-buttons .owl-next {
+    right: 5px;
+    position: relative;
+    top: 230px;
+    z-index: 99;
+}
+
+.medics-home-banner {
+    position: relative;
+}
+#displaymessage {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 35px 43px;
+    padding-bottom: 10px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.home-blog .blog-contan span a:hover,
+.recent-bolg h6 a:hover,
+.footer-menu ul li a:hover,
+.recent-blog-count a:hover,
+a:hover,
+.home-blog .blog-contan h1 a:hover,
+.main-sidebar ul li a:hover,
+.copyright ul li a:hover,
+.main-sidebar .recent-col-2 > h6 a:hover,
+.single-blog .blog-contan-col-2 h1 a:hover{
+color:#00C2E5;
+}
+
+a{
+color:#00C2E5;
+}
+.pagination {
+	margin:0px;
+}
+/****/
+.medics-rightbar .single-blog .blog-contan-col-2 p,
+.medics-fullsidebar .single-blog .blog-contan-col-2 p{
+    clear: both;
+}
+.wp-caption-text > a:hover {
+	color:#FFF;
+}
+/********* Media CSS Start *********/
+@media (max-width:767px) {
+.container-medics {
+	width: 100%;
+}
+.container {
+	width: 100%;
+}
+.navbar-toggle .icon-bar{
+	background-color:#000;
+}
+.navbar-collapse {
+	margin-top:0px;  
+	overflow-y: auto !important;
+}
+.single-blog .blog-contan-col-2 .medics-contant{
+	margin-right:0px;
+}
+.footer-single-post{
+	clear:both;
+	display:table;
+}
+.main-sidebar .recent-col-1 {
+    float: left;
+    margin-right: 9px;
+    width: auto;
+}
+.social-icon li a {
+	float: left;
+}
+.medics-menu ul li a:hover, 
+.medics-menu ul li a:focus, 
+.medics-menu ul li a:active{
+	background-color: #00C2E5;
+    color: #00c2e5 !important;
+}
+.medics-menu li:hover > a{
+	background:none;
+}
+.medics-menu li ul li{
+	border-bottom:none;
+	margin-left:25px;
+}
+.navbar-collapse ul ul li a{
+	padding:0px !important; 
+}
+
+/***** dropdown menu ******/
+#menu-trigger {
+	cursor: pointer;
+	display: block;
+	height: 40px;
+}
+.medics-menu:after {
+	content: '';
+	position: absolute;
+	left: 25px;
+	top: -8px;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #fff;
+}
+.medics-menu a:hover, .medics-menu a:focus {
+	color: #00c2e5 !important;
+	background:none !important;
+}
+.medics-menu li:hover > a {
+	color: #00c2e5;
+	text-decoration: none;
+}
+.medics-menu ul {
+	position: static;
+	visibility: visible;
+	opacity: 1;
+	margin: 0;
+	background: none;
+	border: none;
+	padding: 0;
+}
+.medics-menu ul ul {
+	margin: 0 0 0 20px !important;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.medics-menu li {
+	position: static;
+	display: block;
+	float: none;
+	border: 0;
+	margin: 0px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	width: 85%;
+	text-align: left;
+}
+.medics-menu ul li {
+	margin-left: 20px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.medics-menu a {
+	display: block;
+	float: none;
+	padding: 0px 15px !important;
+	color: rgb(24, 24, 24);
+}
+.medics-menu a:hover, .medics-menu a:focus {
+	color: #fafafa;
+}
+.medics-menu ul a {
+	padding: 0;
+	width: auto;
+}
+.medics-menu ul a:hover {
+	background: none;
+}
+.medics-menu ul li:first-child a:after, .medics-menu ul ul li:first-child a:after {
+	border: 0;
+}
+.medics-menu li {
+	float: left !important;
+	position: relative;
+}
+.medics-menu ul li a {
+	text-align: left;
+}
+.navbar-collapse ul ul li a {
+	color: #777777 !important;
+}
+.medics-menu ul li {
+	background: none;
+}
+.medics-menu li> a {
+	color: #777777;
+	border-bottom: medium none !important;
+}
+.medics-menu li> a:hover {
+	color: #00c2e5;
+	border-bottom: none;
+}
+
+.search-form {
+    clear: both;
+    padding-top: 10px;
+}
+.medics-default-pagination {
+    background-color: #F8F8F8;
+    display: table;
+    width: 100%;
+}
+
+
+p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {
+    margin-bottom: 0;
+}
+embed, iframe, object, video {
+    margin-bottom: 24px;
+    max-width: 100%;
+}
+.navbar-header {
+    margin-bottom: 15px;
+}
+}
+
+@media(min-width:320px) and (max-width:480px)	{
+.help-line {
+    clear: both;
+    text-align: center;
+}
+.header-col-1 {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+.header-col-2 {
+    float: none;
+    margin: 0 auto;
+    width: 45%;
+}
+.logo-icon img {
+    float: left;
+}
+.blog-date {
+    float: left;
+    margin-right: 5px;
+    padding: 0;
+    width: 15%;
+}
+.blog-contan img {
+    width: 80%;
+}
+.recent-blog-count > div {
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+.copyright ul,
+.copyright p{
+	text-align:center;
+	padding: 2px !important;
+}
+.copyright{
+	padding:10px 0px;
+}
+.main-sidebar{
+	padding:0px;
+}
+
+.single-blog .blog-date-col-1{
+	width:17%;
+}
+.single-blog .blog-contan-col-2{
+	width:80%;
+}
+.recent-single-blog-count div i{
+	padding:10px 3px;
+}
+.recent-post-blog .recent-col-1 {
+    float: left;
+    margin-right: 9px;
+    width: auto;
+}
+.recent-post-blog .recent-col-2 {
+    float: left;
+    width: 45%;
+}
+.header-blog h1{
+	font-size:15px;
+}
+
+.comment-box .comment-col-2 {
+    width: 75%;
+}
+.comment-box .comment-col-1 {
+    width: auto;
+	margin-right:10px;
+}
+
+.input-text-box,
+.message-box,
+.our-doctors-blogs{
+	width:100%;
+}
+.header-blog span{
+	padding:5px 14px;
+	font-size:14px;
+}
+.blog-comment{
+	padding:5px;
+}
+.blog-date h6{
+	line-height:15px;
+}
+.home-blog{
+	padding-left:15px;
+}
+.twiterpost p{
+	float:none;	
+}
+.footer-blogs {
+    padding: 0;
+}
+ .recent-bolg .recent-col-1 {
+    float: left;
+    margin-right: 7px;
+    width: auto;
+}
+.input-text-box{
+	float:inherit;
+}
+.single-blogtitle h1:after{
+	width:55%;
+}
+.medics-single-blog h1 {
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin: 25px 0;
+}
+.header-breadcrumb {
+    float: none;
+    margin: 0 0 15px;
+	text-align:center;
+}
+.header-breadcrumb ol{
+	padding:0px;
+}
+.medics-leftbar .single-blog .blog-contan-col-2 {
+    float: right;
+    width: 80%;
+}
+.medics-leftbar .single-blog .blog-date-col-1 {
+    margin-left: 0;
+}
+.medics-fullsidebar .single-blog .blog-contan-col-2 {
+    width: 81%;
+}
+.medics-fullsidebar .single-blog .blog-date-col-1 {
+    width: 17%;
+}
+.social-icons ul {
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+.medics-home-blog-img img {
+    height: 150px;
+    max-width: 100%;
+}
+.recent-bolg p, .recent-bolg h2{
+	margin:9px 0px;
+}
+.comment-form-comment textarea{
+	width:100%;
+}
+
+}
+@media(min-width:481px) and (max-width:767px)	{
+.input-text-box{
+	float:inherit;
+	width:100%;
+}	
+.message-box,
+.comment-form-comment textarea{
+	width:100%;
+}
+.comment-box .comment-col-2{
+	width:90%;
+}
+.single-blogtitle h1:after{
+	width:76%;
+}
+.main-sidebar{
+	padding:0px;
+}
+.logo-icon img {
+    float: left;
+}
+.header-col-1 {
+    width: 44%;
+}
+.help-line {
+    float: left;
+    padding: 0;
+    width: 31%;
+}
+.our-doctors-blogs {
+    float: left;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.blog-date {
+    float: left;
+    margin-right: 10px;
+    width: 20%;
+}
+.recent-bolg .recent-col-1 {
+    float: left;
+    margin-right: 10px;
+    width: auto;
+}
+.blog-contan img {
+    width: 75%;
+}
+.single-blog .blog-date-col-1{
+	width:13%;
+}
+.single-blog .blog-contan-col-2{
+	width:85%;
+}
+.copyright p,
+.copyright ul{
+	text-align:center;
+	padding:2px 0px;
+}
+.copyright{
+	padding:10px 0px;
+}
+.our-partners img {
+    float: left;
+    width: 25%;
+}
+.our-doctors-blogs:first-child {
+    padding-left: 39px;
+	width:50%
+}
+.our-doctors-blogs:last-child {
+    padding-right: 39px;
+	width:50%;
+}
+.our-doctors-blogs:first-child .doctors-title, .our-doctors-blogs:last-child .doctors-title{
+	width:100%;
+}
+.our-doctors img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.home-blog {
+    margin-bottom: 25px;
+    padding-left: 15px;
+}
+.icon-msg {
+    float: left;
+    width: 88%;
+}
+.doctors-title{
+	width:100%;
+}
+.medics-single-blog h1 {
+    width: auto;
+}
+.medics-leftbar .single-blog .blog-contan-col-2 {
+    float: right;
+    width: 85%;
+}
+.medics-leftbar .single-blog .blog-date-col-1 {
+    margin-left: 0;
+}
+.medics-fullsidebar .single-blog .blog-contan-col-2 {
+    width: 89%;
+}
+.medics-fullsidebar .single-blog .blog-date-col-1 {
+    width: 10%;
+}
+
+}
+@media(min-width:768px) and (max-width:1023px)	{
+p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {
+    margin-bottom: 0;
+}
+embed, iframe, object, video {
+    margin-bottom: 24px;
+    max-width: 92%;
+}
+.comment-form-comment textarea{
+	width:100%;
+}
+.single-blog .blog-contan-col-2{
+}
+.container-medics {
+	width: 100%;
+}
+.container {
+	width: 100%;
+}
+.logo-icon img {
+    margin: 0 auto;
+}
+.navbar-collapse {
+	max-height: 260px;
+}
+.header-col-1 {
+    float: left;
+    text-align: right;
+    width: 61%;
+}
+.header-col-2 {
+    float: left;
+    width: 15%;
+}
+.help-line {
+    float: left;
+}	
+.navbar-default{
+	width:100%;
+	margin-bottom:0px;
+}
+.technology-blog {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+.main-title {
+    clear: both;
+}
+.doctors-title{
+	margin:0px;
+}
+.our-doctors img{
+	max-width:100%;
+}
+.our-doctors-blogs {
+    float: left;
+    width: 25%;
+}
+.home-blog {
+    float: left;
+    margin-bottom: 25px;
+}
+.blog-date {
+    float: left;
+    padding: 0 1px;
+    width: 20%;
+}
+.blog-date h6 {
+    line-height: 13px;
+    margin-top: 7px;
+}
+.home-blog{
+	padding-left:0px;
+}
+.blog-contan img {
+    width: 75%;
+}
+.footer-blogs {
+    float: left;
+    padding: 0;
+    width: 25%;
+}
+.footer-menu h1{
+	font-size:19px;
+}
+.footer-menu ul li a{
+	font-size:14px;
+}
+.copyright p{
+	width:50%;
+	float:left;
+}
+.recent-post-blog .recent-col-1 {
+    float: left;
+    margin-right: 10px;
+    width: auto;
+}
+.input-text-box{
+	margin-right:13px;
+}
+.our-partners img {
+    float: left;
+    width: 100%;
+}
+.our-doctors-blogs:last-child {
+    padding-right: 12px;
+	width:25%;
+}
+.our-doctors-blogs {
+    margin-bottom: 25px;
+    padding: 12px;
+}
+.our-doctors-blogs:first-child {
+    padding-left: 12px;
+	width:25%;
+}
+.our-doctors-blogs:first-child .doctors-title, 
+.our-doctors-blogs:last-child .doctors-title,
+.doctors-title
+{
+	width:100%;
+}
+.icon-msg {
+    float: left;
+    width: 90%;
+}
+.twiterpost i{
+	margin-top:18px;
+}
+
+.single-blog .blog-contan-col-2{
+}
+.single-blog .blog-contan-col-2 p,
+.single-blog .blog-contan-col-2 .medics-contant{
+	margin-right:0px;
+}
+.medics-default-pagination{
+	width:100%;
+	display:table;
+}
+.comment-box .comment-col-2{
+	width:90%;
+}
+.single-blogtitle h1:after{
+	width:81%;
+}
+.message-box {
+    clear: both;
+    width: 98%;
+}
+.input-text-box{
+	width:31.33%;
+}
+.leave-form {
+    margin-bottom: 10px;
+}
+
+.logo-icon {
+    display: table;
+    margin: 0 auto;
+}
+.footer-single-post{
+	clear:both;
+	display:table;
+}
+.main-sidebar .recent-col-1 {
+    float: left;
+    margin-right: 9px;
+    width: auto;
+}
+.single-blog .blog-date-col-1{
+	margin-right:10px;
+}
+.footer-blogs {
+    width: 50%;
+}
+.footer-menu ul li {
+    clear: both;
+}
+.recent-bolg .recent-col-1 {
+    margin-right: 10px;
+    width: auto;
+}
+.textwidget {
+    clear: both;
+}
+.footer-title-line {
+    border-top: none;
+ 
+}
+.medics-leftbar .single-blog .blog-date-col-1 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 9%;
+}
+.medics-leftbar .single-blog .blog-contan-col-2 {
+    float: right;
+    width: 90%;
+}
+.medics-home-blog-img > img {
+    height: 150px;
+    max-width: 100% !important;
+} 
+.recent-bolg p{
+	margin:9px 0px;
+}
+#displaymessage {
+    font-size: 23px;
+    margin: 33px 80px;
+}
+}
+@media(min-width:1024px) and (max-width:1200px)	{
+	.medics-leftbar .single-blog .blog-date-col-1 {
+    margin-left: 50px;
+}
+.container-medics {
+	width: 100%;
+}
+.container {
+	width: 100%;
+}
+	.header-col-1 {
+    float: left;
+    text-align: right;
+    width: 75%;
+}
+.header-col-2 {
+    float: left;
+    width: 25%;
+}
+.recent-single-blog-count > div{
+	font-size:10px;
+}
+.recent-post-blog .recent-col-1 {
+    float: left;
+    margin-right: 8px;
+    width: auto;
+}
+.recent-bolg .recent-col-2 {
+    float: left;
+    width: 46%;
+}
+.input-text-box{
+	margin-right:13px;
+}
+
+
+.our-doctors img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.our-doctors-blogs:first-child .doctors-title, .our-doctors-blogs:last-child .doctors-title{
+	width:94%;
+}
+.doctors-title {
+    width: 75%;
+}
+.our-doctors-blogs:first-child {
+    padding-left: 10px;
+    width: 23%;
+}
+.our-doctors-blogs:last-child {
+    padding-right: 10px;
+    width: 23%;
+}
+.our-doctors-blogs{
+	padding:0px;
+}
+.main-sidebar .recent-col-1 img {
+    max-width: 93%;
+	 margin-bottom: 3px;
+}
+.main-sidebar .recent-blog-count > div {
+    padding-right: 6px;
+}
+.recent-col-1 img {
+    margin-bottom: 5px;
+    max-width: 95%;
+}
+.recent-blog-count > div{
+	 padding-right: 5px;
+}
+.medics-contant > p > embed{
+	max-width:100% !important;
+}
+.medics-home-banner > p {
+    left: 7%;
+    top: 93px;
+    width: 47%;
+}
+.medics-home-banner > h1 {
+    font-size: 35px;
+    left: 7%;
+    top: 25px;
+}
+.recent-blog-count > div{
+	padding-right: 4px !important;
+}
+
+}
